@@ -1,0 +1,256 @@
+{        
+	"accountIdentification": {
+		"accountNumber": "418892679",
+		"accountSystemId": "1",
+		"serialNumber": "001",
+		"countryCode": "ZA",
+		"_xmlns": ""
+	},
+	"transactionHeader": {
+		"openingBalance": {
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "250.6"
+			},
+			"date": "2015-08-31"
+		},
+		"closingBalance": {
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "252.49"
+			},
+			"date": "2015-09-02"
+		},
+		"transactionCount": "4",
+		"totals": {
+			"debit": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"credit": {
+				"_currencyCode": "ZAR",
+				"__text": "1.89"
+			},
+			"fee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"vat": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			}
+		},
+		"_xmlns": ""
+	},
+	"transactions": [
+		{
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "0.9"
+			},
+			"balanceAfter": {
+				"_currencyCode": "ZAR",
+				"__text": "251.5"
+			},
+			"postingDate": "2015-08-31",
+			"effectiveDate": "2015-08-31",
+			"transactionType": "30",
+			"debitCreditIndicator": "C",
+			"description": {
+				"_languageCode": "en-ZA",
+				"__text": "INTEREST CAPITALISED"
+			},
+			"reference": "000000000",
+			"interest": "4.25",
+			"narrative": {
+				"_languageCode": "en-ZA"
+			},
+			"serviceFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"accruedFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"voucherNo": "0",
+			"transactionID": "",
+			"consumerTransactionType": "E2",
+			"_xmlns": ""
+		},
+		{
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"balanceAfter": {
+				"_currencyCode": "ZAR",
+				"__text": "251.5"
+			},
+			"postingDate": "2015-08-31",
+			"effectiveDate": "2015-08-31",
+			"transactionType": "77077",
+			"debitCreditIndicator": "C",
+			"description": {
+				"_languageCode": "en-ZA",
+				"__text": "MONTH END BALANCE"
+			},
+			"reference": "000000000",
+			"interest": "0",
+			"narrative": {
+				"_languageCode": "en-ZA"
+			},
+			"serviceFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"accruedFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"voucherNo": "0",
+			"transactionID": "",
+			"_xmlns": ""
+		},
+		{
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "0.9"
+			},
+			"balanceAfter": {
+				"_currencyCode": "ZAR",
+				"__text": "251.5"
+			},
+			"postingDate": "2015-08-31",
+			"effectiveDate": "2015-08-31",
+			"transactionType": "11111",
+			"debitCreditIndicator": "C",
+			"description": {
+				"_languageCode": "en-ZA",
+				"__text": "INTEREST PAID"
+			},
+			"reference": "000000000",
+			"interest": "0",
+			"narrative": {
+				"_languageCode": "en-ZA"
+			},
+			"serviceFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"accruedFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"voucherNo": "0",
+			"transactionID": "",
+			"_xmlns": ""
+		},
+		{
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "0.09"
+			},
+			"balanceAfter": {
+				"_currencyCode": "ZAR",
+				"__text": "251.5"
+			},
+			"postingDate": "2015-09-02",
+			"effectiveDate": "2015-09-02",
+			"transactionType": "11113",
+			"debitCreditIndicator": "C",
+			"description": {
+				"_languageCode": "en-ZA",
+				"__text": "INTEREST ACCRUED"
+			},
+			"reference": "000000000",
+			"interest": "0",
+			"narrative": {
+				"_languageCode": "en-ZA"
+			},
+			"serviceFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"accruedFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"voucherNo": "0",
+			"transactionID": "",
+			"_xmlns": ""
+		}
+	],
+	"customerInformation": {
+		"customerName": {
+			"surname": "DIWAKAR D",
+			"firstName": "DIWA",
+			"initials": "D",
+			"title": "MR"
+		},
+		"idNumber": "A2234562",
+		"language": {
+			"languageCode": "en-ZA",
+			"languageDescription": "English"
+		},
+		"marketSegmentNumber": "130",
+		"residencyIndicator": "Yes",
+		"uniqueCustomerNumber": "150216491",
+		"_xmlns": ""
+	},
+	"accountInformation": {
+		"accountOpenDate": "2015-07-07",
+		"exemptionIndicator": "No",
+		"lastActiveDate": "2015-09-01",
+		"portfolioNumber": "0",
+		"productName": "ELECTRONIC 32 DAY NOTICE DEPOSIT",
+		"productNumber": "1331",
+		"accountStyle": "0",
+		"accountTypeName": "020",
+		"loanSpecificInformation": {
+			"loanType": "Overdraft",
+			"loanGenericInformation": {
+				"interestRate": "4.25",
+				"accountSummary": {
+					"principleDebt": "0"
+				}
+			},
+			"personalLoan": {
+				"overdraft": {
+					"interest": {
+						"interestAmount": "0.12",
+						"interestRate": "4.25"
+					}
+				}
+			}
+		},
+		"balanceInformation": {
+			"currentBalance": {
+				"_currencyCode": "ZAR",
+				"__text": "251.5"
+			},
+			"availableBalance": {
+				"_currencyCode": "ZAR",
+				"__text": "251.5"
+			}
+		},
+		"_xmlns": ""
+	},
+	"communicationInformation": {
+		"customerContactCentre": {
+			"sharecallPhoneNumber": "0860 101 341",
+			"faxNumber": "0",
+			"emailAddress": "info@standardbank.co.za"
+		},
+		"controllingCentre": {
+			"centreName": "KEY WEST",
+			"centreNumber": "2049"
+		},
+		"preferredCentre": {
+			"centreName": "KEY WEST",
+			"centreNumber": "2049"
+		},
+		"webAddress": "www.standardbank.co.za",
+		"_xmlns": ""
+	}
+}

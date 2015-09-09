@@ -12,8 +12,8 @@ router.get('/quickstart', function(req, res, next) {
 });
 
 /* Statement (Income and Expense) */
-router.get('/incomeandexpense', function(req, res, next) {
-  res.render('statement');
+router.get('/accountSummary', function(req, res, next) {
+  res.render('accountSummary');
 });
 
 module.exports = router;
