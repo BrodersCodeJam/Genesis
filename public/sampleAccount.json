@@ -46,11 +46,11 @@
 		{
 			"amount": {
 				"_currencyCode": "ZAR",
-				"__text": "0.9"
+				"__text": "251.50"
 			},
 			"balanceAfter": {
 				"_currencyCode": "ZAR",
-				"__text": "251.5"
+				"__text": "251.50"
 			},
 			"postingDate": "2015-08-31",
 			"effectiveDate": "2015-08-31",
@@ -81,11 +81,11 @@
 		{
 			"amount": {
 				"_currencyCode": "ZAR",
-				"__text": "0"
+				"__text": "4000.00"
 			},
 			"balanceAfter": {
 				"_currencyCode": "ZAR",
-				"__text": "251.5"
+				"__text": "4251.5"
 			},
 			"postingDate": "2015-08-31",
 			"effectiveDate": "2015-08-31",
@@ -93,7 +93,7 @@
 			"debitCreditIndicator": "C",
 			"description": {
 				"_languageCode": "en-ZA",
-				"__text": "MONTH END BALANCE"
+				"__text": "RENTAL Income"
 			},
 			"reference": "000000000",
 			"interest": "0",
@@ -115,11 +115,11 @@
 		{
 			"amount": {
 				"_currencyCode": "ZAR",
-				"__text": "0.9"
+				"__text": "1000.00"
 			},
 			"balanceAfter": {
 				"_currencyCode": "ZAR",
-				"__text": "251.5"
+				"__text": "5251.5"
 			},
 			"postingDate": "2015-08-31",
 			"effectiveDate": "2015-08-31",
@@ -127,7 +127,7 @@
 			"debitCreditIndicator": "C",
 			"description": {
 				"_languageCode": "en-ZA",
-				"__text": "INTEREST PAID"
+				"__text": "Investments Div PAID"
 			},
 			"reference": "000000000",
 			"interest": "0",
@@ -149,19 +149,87 @@
 		{
 			"amount": {
 				"_currencyCode": "ZAR",
-				"__text": "0.09"
+				"__text": "1251.50"
 			},
 			"balanceAfter": {
 				"_currencyCode": "ZAR",
-				"__text": "251.5"
+				"__text": "4000.00"
 			},
 			"postingDate": "2015-09-02",
 			"effectiveDate": "2015-09-02",
 			"transactionType": "11113",
-			"debitCreditIndicator": "C",
+			"debitCreditIndicator": "D",
 			"description": {
 				"_languageCode": "en-ZA",
 				"__text": "INTEREST ACCRUED"
+			},
+			"reference": "000000000",
+			"interest": "0",
+			"narrative": {
+				"_languageCode": "en-ZA"
+			},
+			"serviceFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"accruedFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"voucherNo": "0",
+			"transactionID": "",
+			"_xmlns": ""
+		},
+		{
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "15000.00"
+			},
+			"balanceAfter": {
+				"_currencyCode": "ZAR",
+				"__text": "19000.00"
+			},
+			"postingDate": "2015-08-31",
+			"effectiveDate": "2015-08-31",
+			"transactionType": "11113",
+			"debitCreditIndicator": "C",
+			"description": {
+				"_languageCode": "en-ZA",
+				"__text": "SBSA SAL3108"
+			},
+			"reference": "000000000",
+			"interest": "0",
+			"narrative": {
+				"_languageCode": "en-ZA"
+			},
+			"serviceFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"accruedFee": {
+				"_currencyCode": "ZAR",
+				"__text": "0"
+			},
+			"voucherNo": "0",
+			"transactionID": "",
+			"_xmlns": ""
+		},
+		{
+			"amount": {
+				"_currencyCode": "ZAR",
+				"__text": "5000.00"
+			},
+			"balanceAfter": {
+				"_currencyCode": "ZAR",
+				"__text": "9000.00"
+			},
+			"postingDate": "2015-09-01",
+			"effectiveDate": "2015-09-01",
+			"transactionType": "11114",
+			"debitCreditIndicator": "D",
+			"description": {
+				"_languageCode": "en-ZA",
+				"__text": "SBSA Home Loan"
 			},
 			"reference": "000000000",
 			"interest": "0",
