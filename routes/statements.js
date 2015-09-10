@@ -3,6 +3,7 @@ var soap = require('soap');
 var router = express.Router();
 var path = require('path');
 
+
 /* GET statement for a ID number listing. */
 router.get('/:id', function(req, res, next) {
 
@@ -87,9 +88,9 @@ router.get('/:id', function(req, res, next) {
     attributesKey: attributes
   }
   // WE DONE WITH THIS FOR NOW, ONCE Niek gets CRAP-SB working
-  /*soap.createClient(url, wsdlOptions, function (err, client) {
-  
-    //soap.createClient(url, function(err, client) {
+  //soap.createClient(url, wsdlOptions, function (err, client) {
+  /*
+    soap.createClient(url, function(err, client) {
         //console.log(client;
         if (client) {
           client.endpoint = 'http://10.5.44.140:8088/mockStatementV2_0SoapBinding/getInformalStatement';
@@ -102,8 +103,8 @@ router.get('/:id', function(req, res, next) {
         else {
           console.log(err);
         }
-    });*/
-    
+    });
+    */
     //res.send('Statement Requested for ID number: ' + req.params.id);
     res.sendFile(path.join(__dirname, '../public', 'sampleAccount.json'));
 

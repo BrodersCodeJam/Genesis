@@ -25,19 +25,19 @@
 		"totals": {
 			"debit": {
 				"_currencyCode": "ZAR",
-				"__text": "0"
+				"__text": "32000.00"
 			},
 			"credit": {
 				"_currencyCode": "ZAR",
-				"__text": "1.89"
+				"__text": "28000.00"
 			},
 			"fee": {
 				"_currencyCode": "ZAR",
-				"__text": "0"
+				"__text": "365.00"
 			},
 			"vat": {
 				"_currencyCode": "ZAR",
-				"__text": "0"
+				"__text": "120.55"
 			}
 		},
 		"_xmlns": ""
