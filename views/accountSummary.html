@@ -143,22 +143,52 @@ $(function () {
         });
     }
 
-    $.getJSON("http://localhost:3000/statements/33722854",
-        function(data) {
-            
-            $('#accountNumber').text(data.accountIdentification.accountNumber);
-            showBarChart(data.transactions);
-            
-            var totalSummary = [
-                    {
-                        name: "Credits", y: data.transactionHeader.totals.credit.value
-                    },
-                    {
-                        name: "Debits", y: data.transactionHeader.totals.debit.value
-                    }
-                ];
-            
-            showPieChart(totalSummary);
+    $("#btnSearch" ).click(function() 
+    {
+        var acc = $('#txAccount').val();
+
+        $.getJSON("http://localhost:3000/statements/" + acc,
+            function(data) {
+                if (data.customerInformation) {
+                    //populate base data
+                    $('#custFullname').text(data.customerInformation.customerName.title + ' ' 
+                        + data.customerInformation.customerName.initials + ' ' 
+                        + data.customerInformation.customerName.firstName + ' '
+                        + data.customerInformation.customerName.surname);
+                    $('#custIDNumber').text(data.customerInformation.idNumber);
+                    $('#custLanguage').text(data.customerInformation.language.languageDescription);
+                    $('#custResident').text(data.customerInformation.residencyIndicator);
+                    $('#custBP').text(data.customerInformation.uniqueCustomerNumber);
+                    $('#custControllingCenter').text(data.communicationInformation.controllingCentre.centreName);
+                    $('#custPreferredCenter').text(data.communicationInformation.preferredCentre.centreName);
+                    
+                    $('#accNumber').text(data.accountIdentification.accountNumber);
+                    $('#accOpenDate').text(data.accountInformation.accountOpenDate);
+                    $('#accLastActiveDate').text(data.accountInformation.lastActiveDate);
+                    $('#accProductName').text(data.accountInformation.productName);
+                    $('#accCurrentBalance').text('R' + data.accountInformation.balanceInformation.currentBalance.value);
+                    $('#accAvailableBalance').text('R' + data.accountInformation.balanceInformation.availableBalance.value);
+                    
+                    //show bar chart of statement
+                    showBarChart(data.transactions);
+                    
+                    //show pie chart DR/CR summary
+                    var totalSummary = [
+                            {
+                                name: "Credits", y: data.transactionHeader.totals.credit.value
+                            },
+                            {
+                                name: "Debits", y: data.transactionHeader.totals.debit.value
+                            }
+                        ];
+                    //showPieChart(totalSummary);
+                    
+                    $('#results').show();
+               }
+               else {
+                   $('#results').hide();
+               }
+        });
     });
 });
 		</script>
@@ -166,10 +196,78 @@ $(function () {
 	<body>
         <script src="js/highcharts.js"></script>
         <script src="js/modules/exporting.js"></script>
-        
-       <div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 left"></div>
-        <div id="container2" style="min-width: 350px; height: 350px; max-width: 350px; margin: 0 left"></div>
-
+        <div id="search">
+            <span>Enter Account Number:</span>
+            <input type="text" id="txAccount"/>
+            <input type="button" id="btnSearch" value="Search" />
+        </div>
+        <div id="results" style="display:none; min-width: 800px; max-width: 800px; height: 400px; margin: 0 left">
+            <div id="customerInfo">
+                <table>
+                    <th colspan="2">Customer Information</th>
+                    <tr>
+                        <td>Full Name:</td>
+                        <td><div id="custFullname"/></td>
+                    </tr>
+                    <tr>
+                        <td>ID Number:</td>
+                        <td><div id="custIDNumber"/></td>
+                    </tr>
+                    <tr>
+                        <td>Language:</td>
+                        <td><div id="custLanguage"/></td>
+                    </tr>
+                    <tr>
+                        <td>Resident:</td>
+                        <td><div id="custResident"/></td>
+                    </tr>
+                    <tr>
+                        <td>BP Number:</td>
+                        <td><div id="custBP"/></td>
+                    </tr>
+                    <tr>
+                        <td>Controlling Center:</td>
+                        <td><div id="custControllingCenter"/></td>
+                    </tr>
+                    <tr>
+                        <td>Preferred Center:</td>
+                        <td><div id="custPreferredCenter"/></td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div id="accountInfo">
+                <table>
+                    <th colspan="2">Account Information</th>
+                    <tr>
+                        <td>Account Number:</td>
+                        <td><div id="accNumber"/></td>
+                    </tr>
+                    <tr>
+                        <td>Open Date:</td>
+                        <td><div id="accOpenDate"/></td>
+                    </tr>
+                    <tr>
+                        <td>Last Active Date:</td>
+                        <td><div id="accLastActiveDate"/></td>
+                    </tr>
+                    <tr>
+                        <td>Product Name:</td>
+                        <td><div id="accProductName"/></td>
+                    </tr>
+                    <tr>
+                        <td>Current Balance:</td>
+                        <td><div id="accCurrentBalance"/></td>
+                    </tr>
+                    <tr>
+                        <td>Available Balance:</td>
+                        <td><div id="accAvailableBalance"/></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 left"></div>
+            <div id="container2" style="min-width: 350px; height: 350px; max-width: 350px; margin: 0 left"></div>
+        </div>
 	</body>     
 
 	</body>
