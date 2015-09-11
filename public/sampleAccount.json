@@ -1,324 +1,462 @@
-{        
-	"accountIdentification": {
-		"accountNumber": "418892679",
-		"accountSystemId": "1",
-		"serialNumber": "001",
-		"countryCode": "ZA",
-		"_xmlns": ""
-	},
-	"transactionHeader": {
-		"openingBalance": {
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "250.6"
-			},
-			"date": "2015-08-31"
-		},
-		"closingBalance": {
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "252.49"
-			},
-			"date": "2015-09-02"
-		},
-		"transactionCount": "4",
-		"totals": {
-			"debit": {
-				"_currencyCode": "ZAR",
-				"__text": "32000.00"
-			},
-			"credit": {
-				"_currencyCode": "ZAR",
-				"__text": "28000.00"
-			},
-			"fee": {
-				"_currencyCode": "ZAR",
-				"__text": "365.00"
-			},
-			"vat": {
-				"_currencyCode": "ZAR",
-				"__text": "120.55"
-			}
-		},
-		"_xmlns": ""
-	},
-	"transactions": [
-		{
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "251.50"
-			},
-			"balanceAfter": {
-				"_currencyCode": "ZAR",
-				"__text": "251.50"
-			},
-			"postingDate": "2015-08-31",
-			"effectiveDate": "2015-08-31",
-			"transactionType": "30",
-			"debitCreditIndicator": "C",
-			"description": {
-				"_languageCode": "en-ZA",
-				"__text": "INTEREST CAPITALISED"
-			},
-			"reference": "000000000",
-			"interest": "4.25",
-			"narrative": {
-				"_languageCode": "en-ZA"
-			},
-			"serviceFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"accruedFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"voucherNo": "0",
-			"transactionID": "",
-			"consumerTransactionType": "E2",
-			"_xmlns": ""
-		},
-		{
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "4000.00"
-			},
-			"balanceAfter": {
-				"_currencyCode": "ZAR",
-				"__text": "4251.5"
-			},
-			"postingDate": "2015-08-31",
-			"effectiveDate": "2015-08-31",
-			"transactionType": "77077",
-			"debitCreditIndicator": "C",
-			"description": {
-				"_languageCode": "en-ZA",
-				"__text": "RENTAL Income"
-			},
-			"reference": "000000000",
-			"interest": "0",
-			"narrative": {
-				"_languageCode": "en-ZA"
-			},
-			"serviceFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"accruedFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"voucherNo": "0",
-			"transactionID": "",
-			"_xmlns": ""
-		},
-		{
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "1000.00"
-			},
-			"balanceAfter": {
-				"_currencyCode": "ZAR",
-				"__text": "5251.5"
-			},
-			"postingDate": "2015-08-31",
-			"effectiveDate": "2015-08-31",
-			"transactionType": "11111",
-			"debitCreditIndicator": "C",
-			"description": {
-				"_languageCode": "en-ZA",
-				"__text": "Investments Div PAID"
-			},
-			"reference": "000000000",
-			"interest": "0",
-			"narrative": {
-				"_languageCode": "en-ZA"
-			},
-			"serviceFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"accruedFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"voucherNo": "0",
-			"transactionID": "",
-			"_xmlns": ""
-		},
-		{
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "1251.50"
-			},
-			"balanceAfter": {
-				"_currencyCode": "ZAR",
-				"__text": "4000.00"
-			},
-			"postingDate": "2015-09-02",
-			"effectiveDate": "2015-09-02",
-			"transactionType": "11113",
-			"debitCreditIndicator": "D",
-			"description": {
-				"_languageCode": "en-ZA",
-				"__text": "Vodacom Account"
-			},
-			"reference": "000000000",
-			"interest": "0",
-			"narrative": {
-				"_languageCode": "en-ZA"
-			},
-			"serviceFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"accruedFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"voucherNo": "0",
-			"transactionID": "",
-			"_xmlns": ""
-		},
-		{
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "15000.00"
-			},
-			"balanceAfter": {
-				"_currencyCode": "ZAR",
-				"__text": "19000.00"
-			},
-			"postingDate": "2015-08-31",
-			"effectiveDate": "2015-08-31",
-			"transactionType": "11113",
-			"debitCreditIndicator": "C",
-			"description": {
-				"_languageCode": "en-ZA",
-				"__text": "SBSA SAL3108"
-			},
-			"reference": "000000000",
-			"interest": "0",
-			"narrative": {
-				"_languageCode": "en-ZA"
-			},
-			"serviceFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"accruedFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"voucherNo": "0",
-			"transactionID": "",
-			"_xmlns": ""
-		},
-		{
-			"amount": {
-				"_currencyCode": "ZAR",
-				"__text": "5000.00"
-			},
-			"balanceAfter": {
-				"_currencyCode": "ZAR",
-				"__text": "9000.00"
-			},
-			"postingDate": "2015-09-01",
-			"effectiveDate": "2015-09-01",
-			"transactionType": "11114",
-			"debitCreditIndicator": "D",
-			"description": {
-				"_languageCode": "en-ZA",
-				"__text": "SBSA Home Loan"
-			},
-			"reference": "000000000",
-			"interest": "0",
-			"narrative": {
-				"_languageCode": "en-ZA"
-			},
-			"serviceFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"accruedFee": {
-				"_currencyCode": "ZAR",
-				"__text": "0"
-			},
-			"voucherNo": "0",
-			"transactionID": "",
-			"_xmlns": ""
-		}
-	],
-	"customerInformation": {
-		"customerName": {
-			"surname": "DIWAKAR D",
-			"firstName": "DIWA",
-			"initials": "D",
-			"title": "MR"
-		},
-		"idNumber": "A2234562",
-		"language": {
-			"languageCode": "en-ZA",
-			"languageDescription": "English"
-		},
-		"marketSegmentNumber": "130",
-		"residencyIndicator": "Yes",
-		"uniqueCustomerNumber": "150216491",
-		"_xmlns": ""
-	},
-	"accountInformation": {
-		"accountOpenDate": "2015-07-07",
-		"exemptionIndicator": "No",
-		"lastActiveDate": "2015-09-01",
-		"portfolioNumber": "0",
-		"productName": "ELECTRONIC 32 DAY NOTICE DEPOSIT",
-		"productNumber": "1331",
-		"accountStyle": "0",
-		"accountTypeName": "020",
-		"loanSpecificInformation": {
-			"loanType": "Overdraft",
-			"loanGenericInformation": {
-				"interestRate": "4.25",
-				"accountSummary": {
-					"principleDebt": "0"
-				}
-			},
-			"personalLoan": {
-				"overdraft": {
-					"interest": {
-						"interestAmount": "0.12",
-						"interestRate": "4.25"
-					}
-				}
-			}
-		},
-		"balanceInformation": {
-			"currentBalance": {
-				"_currencyCode": "ZAR",
-				"__text": "251.5"
-			},
-			"availableBalance": {
-				"_currencyCode": "ZAR",
-				"__text": "251.5"
-			}
-		},
-		"_xmlns": ""
-	},
-	"communicationInformation": {
-		"customerContactCentre": {
-			"sharecallPhoneNumber": "0860 101 341",
-			"faxNumber": "0",
-			"emailAddress": "info@standardbank.co.za"
-		},
-		"controllingCentre": {
-			"centreName": "KEY WEST",
-			"centreNumber": "2049"
-		},
-		"preferredCentre": {
-			"centreName": "KEY WEST",
-			"centreNumber": "2049"
-		},
-		"webAddress": "www.standardbank.co.za",
-		"_xmlns": ""
-	}
+{
+    "processingRequest": {
+        "returnAccountDetailsIndicator": "Yes",
+        "retainAndReturnSearchCriteria": "Yes",
+        "retainAndReturnSortCriteria": "Yes"
+    },
+    "accountIdentification": {
+        "accountNumber": "33722854",
+        "accountSystemId": "1",
+        "productCategory": null,
+        "serialNumber": "000",
+        "countryCode": "ZA",
+        "currencyCode": "ZAR"
+    },
+    "transactionHeader": {
+        "openingBalance": {
+            "amount": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "date": 1440367200000
+        },
+        "closingBalance": {
+            "amount": {
+                "value": 260,
+                "currencyCode": "ZAR"
+            },
+            "date": 1441922400000
+        },
+        "transactionCount": 8,
+        "totals": {
+            "debit": {
+                "value": 10,
+                "currencyCode": "ZAR"
+            },
+            "credit": {
+                "value": 270,
+                "currencyCode": "ZAR"
+            },
+            "fee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "vat": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            }
+        }
+    },
+    "transactions": [
+        {
+            "amount": {
+                "value": 50,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 50,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1440367200000,
+            "effectiveDate": 1440367200000,
+            "transactionType": "380",
+            "debitCreditIndicator": "C",
+            "description": {
+                "value": "IB TRANSFER FROM",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000083",
+            "interest": 0,
+            "narrative": {
+                "value": "DEV            282974709",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        },
+        {
+            "amount": {
+                "value": 10,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 60,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1440453600000,
+            "effectiveDate": 1440453600000,
+            "transactionType": "380",
+            "debitCreditIndicator": "C",
+            "description": {
+                "value": "IB TRANSFER FROM",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000082",
+            "interest": 0,
+            "narrative": {
+                "value": "28 297 470 9   11H03 360145903",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        },
+        {
+            "amount": {
+                "value": 50,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 110,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1441317600000,
+            "effectiveDate": 1441317600000,
+            "transactionType": "380",
+            "debitCreditIndicator": "C",
+            "description": {
+                "value": "IB TRANSFER FROM",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000082",
+            "interest": 0,
+            "narrative": {
+                "value": "AutoSave       11H05",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        },
+        {
+            "amount": {
+                "value": 50,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 160,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1441749600000,
+            "effectiveDate": 1441749600000,
+            "transactionType": "380",
+            "debitCreditIndicator": "C",
+            "description": {
+                "value": "IB TRANSFER FROM",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000082",
+            "interest": 0,
+            "narrative": {
+                "value": "ImpulseSave    11H12",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        },
+        {
+            "amount": {
+                "value": 10,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 170,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1441836000000,
+            "effectiveDate": 1441836000000,
+            "transactionType": "380",
+            "debitCreditIndicator": "C",
+            "description": {
+                "value": "IB TRANSFER FROM",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000082",
+            "interest": 0,
+            "narrative": {
+                "value": "asd            16H01",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        },
+        {
+            "amount": {
+                "value": 50,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 220,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1441836000000,
+            "effectiveDate": 1441836000000,
+            "transactionType": "380",
+            "debitCreditIndicator": "C",
+            "description": {
+                "value": "IB TRANSFER FROM",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000082",
+            "interest": 0,
+            "narrative": {
+                "value": "ImpulseSave    08H15",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        },
+        {
+            "amount": {
+                "value": -10,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 210,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1441922400000,
+            "effectiveDate": 1441922400000,
+            "transactionType": "378",
+            "debitCreditIndicator": "D",
+            "description": {
+                "value": "IB TRANSFER TO",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000082",
+            "interest": 0,
+            "narrative": {
+                "value": "30 007 066 7   16H04 360145903",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        },
+        {
+            "amount": {
+                "value": 50,
+                "currencyCode": "ZAR"
+            },
+            "clearedAmount": null,
+            "balanceAfter": {
+                "value": 260,
+                "currencyCode": "ZAR"
+            },
+            "postingDate": 1441922400000,
+            "effectiveDate": 1441922400000,
+            "transactionType": "380",
+            "debitCreditIndicator": "C",
+            "description": {
+                "value": "IB TRANSFER FROM",
+                "languageCode": "en-ZA"
+            },
+            "reference": "000000082",
+            "interest": 0,
+            "narrative": {
+                "value": "ImpulseSave    16H16",
+                "languageCode": "en-ZA"
+            },
+            "serviceFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "accruedFee": {
+                "value": 0,
+                "currencyCode": "ZAR"
+            },
+            "voucherNo": "0",
+            "vat": null,
+            "transactionID": "",
+            "positionNo": null,
+            "consumerTransactionType": null
+        }
+    ],
+    "paging": {
+        "morePagesIndicator": "No",
+        "pagingRequired": "No",
+        "pageNo": 1,
+        "containerName": null
+    },
+    "searchCriteria": {
+        "statementType": "fromLastStatement",
+        "searchRange": null
+    },
+    "filterCriteria": null,
+    "sort": null,
+    "customerInformation": {
+        "customerName": {
+            "surname": "DEV",
+            "firstName": "TESTING",
+            "initials": "T",
+            "title": "MR"
+        },
+        "idNumber": "8005108325193",
+        "language": {
+            "languageCode": "en-ZA",
+            "languageDescription": "English"
+        },
+        "marketSegmentNumber": 140,
+        "relationshipManagerName": null,
+        "residencyIndicator": "Yes",
+        "uniqueCustomerNumber": 150213230,
+        "customerAddress": null
+    },
+    "accountInformation": {
+        "accountOpenDate": 1440367200000,
+        "accountClosedDate": null,
+        "exemptionIndicator": "No",
+        "lastActiveDate": 1441836000000,
+        "lastFormalStatementDate": null,
+        "nextFormalStatementDate": null,
+        "portfolioNumber": 0,
+        "productName": "PURESAVE ACCOUNT",
+        "productNumber": 1905,
+        "accountStyle": 0,
+        "accountTypeName": "010",
+        "loanSpecificInformation": {
+            "loanType": "Overdraft",
+            "loanGenericInformation": {
+                "interestRate": 1.85,
+                "installment": null,
+                "transactionSummary": null,
+                "accountSummary": {
+                    "principleDebt": {
+                        "value": 0,
+                        "currencyCode": null
+                    },
+                    "outstandingBalance": null
+                },
+                "arrears": null
+            },
+            "assetBasedLoan": null,
+            "personalLoan": {
+                "overdraft": {
+                    "limits": null,
+                    "reviewDate": null,
+                    "interestRateAboveLimit": null,
+                    "interest": [
+                        {
+                            "interestAmount": {
+                                "value": 0.08,
+                                "currencyCode": null
+                            },
+                            "interestRate": 1.85
+                        }
+                    ]
+                }
+            }
+        },
+        "balanceInformation": {
+            "currentBalance": {
+                "value": 260,
+                "currencyCode": "ZAR"
+            },
+            "availableBalance": {
+                "value": 210,
+                "currencyCode": "ZAR"
+            }
+        }
+    },
+    "communicationInformation": {
+        "customerContactCentre": {
+            "internationalPhoneNumber": null,
+            "sharecallPhoneNumber": "0860 101 341        ",
+            "faxNumber": "0                   ",
+            "emailAddress": "info@standardbank.co.za                      "
+        },
+        "controllingCentre": {
+            "centreName": "KEY WEST",
+            "centreNumber": 2049
+        },
+        "preferredCentre": {
+            "centreName": "KEY WEST",
+            "centreNumber": 2049
+        },
+        "postalAddress": null,
+        "streetAddress": null,
+        "webAddress": "www.standardbank.co.za                       ",
+        "vatNumber": null
+    }
 }

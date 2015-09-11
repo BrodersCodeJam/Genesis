@@ -34,7 +34,7 @@ router.get('/:id', function (req, res, next) {
             "retainAndReturnSearchCriteria": "Yes"
           },
           "accountIdentification": {
-            "accountNumber": "273385534",
+            "accountNumber": req.params.id,
             "accountSystemId": "1",
             "countryCode": "ZA",
             "currencyCode": "ZAR",
@@ -57,14 +57,19 @@ router.get('/:id', function (req, res, next) {
       }
       )
     .end(function (response) {
-      console.log(response.body);
-            
+      if (response.error) {
+        console.log(response);
+        res.send(response);
+      }
+      else {   
+        console.log(response.body);
+        res.send(response.body);
+      }
       /* 
       This is the switch between mock data and real data 
       */
+      //res.sendFile(path.join(__dirname, '../public', 'sampleAccount.json'))
       
-      res.sendFile(path.join(__dirname, '../public', 'sampleAccount.json'))
-      //res.send(response.body);
     });
 }
   );

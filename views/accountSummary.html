@@ -14,15 +14,18 @@ $(function () {
         var dateArray = [];
         var credits = [];
         var debits = [];
+        
         $.each( transactions, function( index, value ){
-            dateArray.push(value.effectiveDate);
-            var txValue = parseFloat(value.amount.__text);
+            var d = new Date(value.effectiveDate);
+            var formattedDate = d.toDateString();
+            dateArray.push(formattedDate);
+
             if (value.debitCreditIndicator==="C") {
-                credits.push(txValue);
+                credits.push(value.amount.value);
                 debits.push(0);
             }
             else {
-                debits.push(txValue*-1);
+                debits.push(value.amount.value);
                 credits.push(0);
             }
         });
@@ -140,7 +143,7 @@ $(function () {
         });
     }
 
-    $.getJSON("http://localhost:3000/statements/1212",
+    $.getJSON("http://localhost:3000/statements/33722854",
         function(data) {
             
             $('#accountNumber').text(data.accountIdentification.accountNumber);
@@ -148,10 +151,10 @@ $(function () {
             
             var totalSummary = [
                     {
-                        name: "Credits", y: parseFloat(data.transactionHeader.totals.credit.__text)
+                        name: "Credits", y: data.transactionHeader.totals.credit.value
                     },
                     {
-                        name: "Debits", y: parseFloat(data.transactionHeader.totals.debit.__text)
+                        name: "Debits", y: data.transactionHeader.totals.debit.value
                     }
                 ];
             
