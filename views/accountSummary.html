@@ -148,10 +148,11 @@ $(function () {
             
             var totalSummary = [
                     {
-                        name: "Debits",
-                        y: parseFloat(data.transactionHeader.totals.debit.__text)
+                        name: "Credits", y: parseFloat(data.transactionHeader.totals.credit.__text)
                     },
-                    {name: "Credits", y: parseFloat(data.transactionHeader.totals.credit.__text)}
+                    {
+                        name: "Debits", y: parseFloat(data.transactionHeader.totals.debit.__text)
+                    }
                 ];
             
             showPieChart(totalSummary);
