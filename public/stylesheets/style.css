@@ -8,3 +8,32 @@ a {
 .blocktext {
   font-family: Courier New, Courier, monospace;
 }
+/* 
+  section styles 
+*/
+
+#header {
+    width:100%;
+    clear: both;
+    padding:10px;
+}
+#search {
+    width:350px;
+    padding:10px;
+    border: 1px solid black;
+}
+#results {
+  display: none;
+}
+#customerInfo {
+    width:350px;
+    padding:10px; 
+    border: 1px dashed black;
+    float: left;
+}
+#accountInfo {
+    padding:10px;
+    border: 1px dashed black;
+    margin: 10px;
+    margin-left: 400px;
+}

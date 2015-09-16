@@ -9,6 +9,9 @@ router.get('/', function(req, res, next) {
 /* GET Quick Start. */
 router.get('/quickstart', function(req, res, next) {
   res.render('quickstart');
+  
+ 
+  
 });
 
 /* Statement (Income and Expense) */

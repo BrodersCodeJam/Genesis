@@ -163,8 +163,10 @@ $(function () {
                     $('#custPreferredCenter').text(data.communicationInformation.preferredCentre.centreName);
                     
                     $('#accNumber').text(data.accountIdentification.accountNumber);
-                    $('#accOpenDate').text(data.accountInformation.accountOpenDate);
-                    $('#accLastActiveDate').text(data.accountInformation.lastActiveDate);
+                    var d = new Date(data.accountInformation.accountOpenDate);
+                    $('#accOpenDate').text(d.toDateString());
+                    d = new Date(data.accountInformation.lastActiveDate);
+                    $('#accLastActiveDate').text(d.toDateString());
                     $('#accProductName').text(data.accountInformation.productName);
                     $('#accCurrentBalance').text('R' + data.accountInformation.balanceInformation.currentBalance.value);
                     $('#accAvailableBalance').text('R' + data.accountInformation.balanceInformation.availableBalance.value);
@@ -196,12 +198,15 @@ $(function () {
 	<body>
         <script src="js/highcharts.js"></script>
         <script src="js/modules/exporting.js"></script>
+        <div id="header">
+            <p>Income and Expenses Summary Report</p>
+        </div>
         <div id="search">
             <span>Enter Account Number:</span>
             <input type="text" id="txAccount"/>
             <input type="button" id="btnSearch" value="Search" />
         </div>
-        <div id="results" style="display:none; min-width: 800px; max-width: 800px; height: 400px; margin: 0 left">
+        <div id="results">
             <div id="customerInfo">
                 <table>
                     <th colspan="2">Customer Information</th>
@@ -265,10 +270,8 @@ $(function () {
                     </tr>
                 </table>
             </div>
-            <div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 left"></div>
-            <div id="container2" style="min-width: 350px; height: 350px; max-width: 350px; margin: 0 left"></div>
+            <div id="container"></div>
+            <div id="container2"></div>
         </div>
 	</body>     
-
-	</body>
 </html>

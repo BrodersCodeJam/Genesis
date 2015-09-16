@@ -62,7 +62,7 @@ router.get('/:id', function (req, res, next) {
         res.send(response);
       }
       else {   
-        console.log(response.body);
+        console.log(JSON.stringify(response.body));
         res.send(response.body);
       }
       /* 
